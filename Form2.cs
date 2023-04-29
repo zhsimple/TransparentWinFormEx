@@ -16,7 +16,7 @@ namespace Tester
         private void Form2_Load(object sender, EventArgs e)
         {
             //lens of username must >=2;
-            bool ok = System.Windows.FormsEx.GraphicsEx.Register("hm", "RR5cqCV4M9idzhhoBuGSMw==1");
+            bool ok = System.Windows.FormsEx.GraphicsEx.Register("hm", "");
             if (!ok) Console.WriteLine("You are not registered! you can try this in a few days!");
 
             treeViewEx1.ExpandAll();
