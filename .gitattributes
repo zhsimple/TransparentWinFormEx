@@ -1,8 +1,8 @@
-*.md linguist-language=c#
-*.exe linguist-language=c#
-*.dll linguist-language=c#
-*.bmp linguist-language=c#
-*.jpg linguist-language=c#
-*.png linguist-language=c#
-*.cmd linguist-language=c#
-*.rtf linguist-language=c#
+*.md linguist-language=C#
+*.exe linguist-language=C#
+*.dll linguist-language=C#
+*.bmp linguist-language=C#
+*.jpg linguist-language=C#
+*.png linguist-language=C#
+*.cmd linguist-language=C#
+*.rtf linguist-language=C#
