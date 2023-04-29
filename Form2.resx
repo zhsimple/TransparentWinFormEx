@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAC+
+        CQAAAk1TRnQBSQFMAgEBAgEAARgBIQEYASEBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wIAAfQN8wH0AQAP9CEA
+        AisB8wq8AfMBOAEAASsB9AHzCgcB8wG8IQACKwN6B3kCegEyAQABKwH0AfMK8AHzAbwhAAIrAVkBUwFZ
+        AXUBdAF1AXQBdQFSBFkBAAErAfMCWQFSAnUCdAF1AVgBUgEJAXQBvCEAAisCWQJ1AXQBdQJ6AeUCdAJZ
+        AQABKwG8AlkBWAF1AnQEegFGAXoBvCEAASsBMgF6AVkCdQF0AXUCegHlAZEBUAJ6AQABOAHyAlkCdQF0
+        AXUBmgJ6AeUBegFZAbwhAAExATgCWQF1AnQBegGaAXoB5QJ5AnoBAAE4AfICWQF1AnQBdQN6AeUCegG8
+        IQABOAEyA1kCdAJ6AfwB5QN5AVkBAAEyAfMBUwJZAnQEegHlAnkBvCEAATgBMQF6AlgBWQFYAeUBoAJ6
+        AnkBdAFZAQABWQHyAVIBWQFYAVIBbwJ6AXQBegF5AXQBeQG8IQACWQHlAVMC5QHDAeUBoAFZAXoBBwFz
+        AXkBWQEAATgB8gF6AlgB5QFYAeUBoAFZAXoBcwJ0AbwhAAFZATEB5QFNAXkB5QHDAeUCegLlAXoB5QFZ
+        AQABMQG8AeUBUwE4AeUBwwHlAaABWQF6AeUBegHlAbwhAAFeAf8BMQIsASoBLAE4AjcB+wFZAl4BCQEA
+        ASsBMQH5AVgBLAFRAVgBLAErATICWQE4AV4BvCEABdwB8AEyAbQBeQExATcBWQExAVkB3AEAAbwBMQEl
+        AVkBWAEwAbsBCQE4BFkBXgG8IQAP3AEACdwBWAIxAdwBMQG8IQAB9A3zAfQBAAH0DfMB9GAAAUIBTQE+
+        BwABPgMAASgDAAFAAwABEAMAAQEBAAEBBQABgBcAA/8BAAGAAQABgAUAAYABAAGABQABgAEAAYAFAAGA
+        AQABgAUAAYABAAGABQABgAEAAYAFAAGAAQABgAUAAYABAAGABQABgAEAAYAFAAGAAQABgAUAAYABAAGA
+        BQABgAEAAYAFAAGAAQABgAUAAYABAAGABQABgAEAAYAFAAT/BAAL
+</value>
+  </data>
+  <metadata name="imageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>247, 17</value>
+  </metadata>
+  <data name="textBoxEx2.Text" xml:space="preserve">
+    <value>using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using System.IO;
+using System.Runtime.InteropServices;
+using System.Reflection;
+
+namespace Tester
+{
+    public partial class Form2 : Form
+    {
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            treeViewEx1.ExpandAll();
+            try
+            {
+                string resourceName = "Tester.Resources.rtf1.rtf";
+                using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName))
+                {
+                    richTextBoxEx2.Rtf = new StreamReader(stream).ReadToEnd();
+                }
+                //richTextBoxEx2.LoadFile("d:\\rtf1.rtf", RichTextBoxStreamType.RichText);
+                
+                panelEx2.Location = new Point(panelEx2.Location.X, panelEx5.Height);
+                timer1.Enabled = true;
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+
+        public Form2()
+        {
+            InitializeComponent();
+         }
+
+
+        private void buttonEx1_Click(object sender, EventArgs e)
+        {
+            if (panelEx1.Location.X &lt; 600)
+                panelEx1.Location = new Point(panelEx1.Location.X + 10, panelEx1.Location.Y);
+            else
+                panelEx1.Location = new Point(10, panelEx1.Location.Y);
+        }
+
+
+        private void switchEx4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (switchEx4.Checked)
+            {
+                treeViewEx1.ShowType = System.Windows.FormsEx.TreeViewEx.ShowTypeEnum.Triangle;
+            }
+            else
+            {
+                treeViewEx1.ShowType = System.Windows.FormsEx.TreeViewEx.ShowTypeEnum.MinusPlus;
+            }
+        }
+
+        private void progressBarEx17_ValueChanged(object sender, EventArgs e)
+        {
+            progressBarEx11.Value = progressBarEx9.Value = progressBarEx17.Value;
+            progressBarEx14.Value = progressBarEx16.Value = progressBarEx17.Value;
+            progressBarEx1.Value = progressBarEx2.Value = progressBarEx17.Value;
+        }
+
+        private void buttonEx1_Click_2(object sender, EventArgs e)
+        {
+            listViewEx1.BeginUpdate();
+            for (int i = 0; i &lt; 500; i++)
+            {
+                ListViewItem item = new ListViewItem("item" + i);
+                item.SubItems.Add("hello" + i);
+                item.SubItems.Add("world" + i);
+                listViewEx1.Items.Add(item);
+            }
+            listViewEx1.EndUpdate();
+        }
+
+        private void buttonEx2_Click_2(object sender, EventArgs e)
+        {
+            listViewEx1.Items.Clear();
+        }
+
+        private void trackBarEx1_ValueChanged(object sender, EventArgs e)
+        {
+            listViewEx1.HeadHeight = trackBarEx1.Value;
+        }
+
+        private void trackBarEx2_ValueChanged(object sender, EventArgs e)
+        {
+            listViewEx1.ItemHeight = trackBarEx2.Value;
+
+        }
+
+        private void trackBarEx5_ValueChanged(object sender, EventArgs e)
+        {
+            panelEx1.BackColor = Color.FromArgb(trackBarEx5.Value * 20, panelEx1.BackColor);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Point pt = panelEx2.Location;
+            pt.Y -= 2;
+
+            if (pt.Y + panelEx2.Height &gt; 0)
+            {
+                panelEx2.Location = pt;
+            }
+            else
+            {
+                panelEx2.Location = new Point(panelEx2.Location.X, panelEx5.Height);
+            }
+
+        }
+
+        private void tabControlEx1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (tabControlEx1.SelectedIndex == 0)
+            {
+                timer1.Enabled = true;
+            }
+            else
+            {
+                timer1.Enabled = false;
+            }
+        }
+    }
+}
+
+</value>
+  </data>
+  <data name="textBoxEx3.Text" xml:space="preserve">
+    <value>This software can be used by individuals for free (with time function limit)
+
+Personal registration can be unlimited for non-commercial use (without any restrictions)
+
+After registration, please register a screen, register a name, email to zhsimple@qq.com, after confirmation will reply the registration code by email
+
+Also, you will get the.net 2.0, dynamic library
+
+And the source code for most of the controls,
+
+And subsequent versions of the dynamic library and some updated source code
+
+The registration fee is RMB 100 yuan,  or US $49
+
+Business applications, please contact zhsimple@qq.com after authorization to use.
+</value>
+  </data>
+  <data name="textBoxEx1.Text" xml:space="preserve">
+    <value>本软件个人可以免费使用（有时间功能限制）
+
+个人注册后可以无限制使用于非商业用途（无任何限制）
+    注册后请将注册截屏，注册名称，发邮件到 zhsimple@qq.com &lt;mailto:zhsimple@qq.com&gt; ,经确认后将通过邮件回复注册码
+同时，您将获得 .net 2.0 动态库
+以及大部分控件的源代码，
+以及后续版本的动态库及部分更新的源代码
+注册费用 人民币100元 或 美元49美元
+
+商业应用请联系 zhsimple@qq.com 经授权后才能使用。
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+</root>
