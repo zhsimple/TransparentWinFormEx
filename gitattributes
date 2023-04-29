@@ -1,0 +1,8 @@
+*.md linguist-language=c#
+*.exe linguist-language=c#
+*.dll linguist-language=c#
+*.bmp linguist-language=c#
+*.jpg linguist-language=c#
+*.png linguist-language=c#
+*.cmd linguist-language=c#
+*.rtf linguist-language=c#
